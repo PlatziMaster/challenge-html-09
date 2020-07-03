@@ -48,7 +48,9 @@ Pero, ¿Cuál es la dificultad? En esta sesión, no podrás ver el resultado mie
 
 4. Tienes 20 minutos para hacer el siguiente diseño con HTML y CSS:
 
-*Pronto...*
+<kbd>
+<img src="https://ibb.co/bPr1FTv" />
+</kbd>
 
 5. Al finalizar el tiempo, dale click en el botón `Share`. Copia la URL y compártela por el chat de Zoom para poder revisar tu resultado.
 
