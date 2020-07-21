@@ -1,0 +1,115 @@
+html, body{
+    padding: 0px;
+    margin: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background:hsl(203, 29%, 22%);
+    
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    position: relative;
+    height: 600px;
+    width: 375px;
+    left: 35%;
+    margin-top: 10%;
+    border: 3px solid black;
+    border-radius: 30px;
+    background: white;
+    
+}
+.bloque_left{
+    height: 100px;
+    width: 340px;
+    position: relative;
+    left: 5%;
+    top: 40%;
+    z-index: 6;
+    
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+.nav_left a {
+    text-decoration: none;
+    padding-right: 5px;
+   
+}
+.nav_right{
+    
+    height: 40px;
+    width: 100px;
+    position: relative;
+    left: 68.7%;
+    top: -131%;
+    text-align: end;
+}
+.nav_right a{
+    padding-right: 5px;
+   
+}
+.main  {
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 13%;
+  top: -70%;
+  z-index: 4;
+}
+.main_p1{
+    font-size: 25px;
+}
+.main_ingredients{
+  
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 13%;
+  top: 20%;
+  z-index: 3;
+}
+.main_vol{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    left: 13%;
+    top: 160%;
+    z-index: 2;
+}
+.image{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: 67%;
+    top: -270%;
+    z-index: 5;
+   
+}
+.footer{
+  display: flex;
+  height: 35px;
+  width: 200px;
+  position: relative;
+  left: 13%;
+  top: 70%;
+  z-index: 1;
+}
+.footer a{
+    transform: rotate(-180deg);
+    padding-right: 20px;
+}
+.estilo{
+    height: 600px;
+    width: 187px;
+    background: #e4e4e4;
+    position: relative;
+    top: -80%; 
+    margin-top: -227px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    
+}
