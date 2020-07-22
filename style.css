@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    background-color: darkslategrey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container {
+    background-image: linear-gradient(to left, #f6f5e8, #f6f5e8 50%, #ffffff 50%, #ffffff);
+    border-radius: 25px;
+    border: 8px solid black;
+    height: 550px;
+    width: 400px;
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.cellphone-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+.cellphone-left i {
+    margin-right: 20px;
+    font-size: 2em;
+    align-self: center;
+}
+.cellphone-left span {
+    font-size: 15px;
+    align-self: center;
+    margin-right: 10px;
+}
+.cellphone-left h1 {
+    font-size: 2.2em;
+    margin: 0;
+    align-self: center;
+    font-weight: lighter;
+    line-height: 35px;
+}
+.cellphone-left p {
+    font-size: .9em;
+    margin: 0;
+    align-self: center;
+    line-height: 1.5em;
+}
+.cellphone-left h4 {
+    margin: 0;
+    align-self: center;
+} 
+.cellphone-left ul {
+    list-style: none;
+    justify-self: flex-start;
+    margin-right:0;
+    padding-left: 0;
+    width: 100%;
+}
+.cellphone-right {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.cellphone-right i {
+    margin-right: 20px;
+    /* box-shadow: 10px 10px black ; */
+}
+.cellphone-right img {
+    max-width: 150px;
+    margin-right: 10px;
+}
